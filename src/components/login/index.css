@@ -1,0 +1,85 @@
+* {
+    background-color: white;
+}
+
+.header {
+    width: 100vw;
+    height: 13vh;
+    flex-shrink: 0;
+    background: #C31D1D;
+}
+
+.div-logo {
+    height: 80vh;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding-left: 200px;
+}
+
+.logo {
+    width: 600px;
+    flex-shrink: 0;
+}
+
+.input-login {
+    width: 450px;
+    height: 50px;
+    border-radius: 17px;
+    border: 3px solid #000;
+    margin: 40px;
+    display: flex;
+    font-family: Inter;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.conecte-se {
+    color: #C31D1D;
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.a-sua-conta {
+    color: #C31D1D;
+    font-family: Inter;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.div-caixa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 100px;
+}
+
+.entrar {
+    width: 462px;
+    height: 73px;
+    border: none;
+    border-radius: 17px;
+    background: #C31D1D;
+    font-family: Inter;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url('../../fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
