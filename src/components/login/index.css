@@ -29,6 +29,7 @@
     height: 50px;
     border-radius: 17px;
     border: 3px solid #000;
+    padding-left: 50px;
     margin: 40px;
     display: flex;
     font-family: Inter;
@@ -46,6 +47,8 @@
     font-weight: 700;
     display: flex;
     justify-content: flex-end;
+    margin-right: 210px;
+    
 }
 
 .a-sua-conta {
@@ -55,6 +58,9 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 220px;
 }
 
 .div-caixa {
@@ -65,7 +71,7 @@
     margin-right: 100px;
 }
 
-.entrar {
+.bt-entrar {
     width: 462px;
     height: 73px;
     border: none;
